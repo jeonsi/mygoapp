@@ -10,3 +10,5 @@ go mod tidy
 go run main.go
 # change short and long description in cmd/root.go
 cobra add random
+
+# https://spf13.com/presentation/building-an-awesome-cli-app-in-go-oscon/
