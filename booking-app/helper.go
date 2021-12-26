@@ -20,4 +20,5 @@ func sendTicket(userTickets uint, firstName string, lastName string, email strin
 	fmt.Println("###############")
 	fmt.Printf("sending ticket:\n %v to email %v\n", ticket, email)
 	fmt.Println("###############")
+	wg.Done()
 }
